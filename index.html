@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.Schiene </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .instruction {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .small-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #555555;
+        }
+        .logo {
+            display: block;
+            margin: 40px auto 0 auto;
+            width: 200px; /* Задайте нужный размер логотипа */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>8.Schiene </h1>
+        
+        <!-- Аудиоплеер для файла Wasserwege -->
+        <audio controls controlslist="nodownload">
+            <source src="Schiene.mp3" type="audio/mpeg">
+            Ihr Browser unterstützt die Audio-Wiedergabe nicht.
+        </audio>
+        
+        <!-- Основной текст -->
+        <p>
+            Am 1. Dezember 1838 fuhr zum ersten Mal ein Dampfzug die 12 km lange Strecke von Braunschweig nach Wolfenbüttel. Diese erste deutsche Staatseisenbahnlinie bediente in den Anfangsjahren hauptsächlich den Mark- und Ausflugsverkehr. Eisenbahnfahren wurde eine Attraktion im Braunschweiger Land, viermal täglich pendelten die Züge mit den Dampflokomotiven »Braunschweig« und »Löwe« zwischen Braunschweig und Wolfenbüttel. 
+Über 100.000 Reisende wurden in den ersten fünf Monaten verzeichnet. Erst nach 1841 begann auch der Güterverkehr auf den Schienen und der weitere Ausbau der Strecke erfolgte. 
+</p>
+        
+        <!-- Текст-инструкция -->
+        <p class="instruction">Weiter mit der Taste 9</p>
+        
+        <!-- Контейнер для кнопок -->
+        <div class="button-container">
+            <!-- Кнопка 5, ведущая на предыдущую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Schiene-und-Maschine1/" class="button small-button">7</a>
+            
+            <!-- Кнопка 6, ведущая на следующую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Buerger-Museum/" class="button">9</a>
+        </div>
+
+        <!-- Логотип под кнопками -->
+        <img src="Museum_Wolfenbuettel.jpg" alt="Museum Logo" class="logo">
+    </div>
+</body>
+</html>
